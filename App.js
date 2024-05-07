@@ -2,7 +2,7 @@ import { Camera, CameraType } from 'expo-camera';
 import * as MediaLibrary from 'expo-media-library';
 import { useState } from 'react';
 import { StatusBar } from 'expo-status-bar';
-import { Button, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { Button, StyleSheet, Text, TouchableOpacity, View, SafeAreaView, ScrollView, Image, Platform } from 'react-native';
 
 export default function App() {
   const [type, setType] = useState(CameraType.back);
